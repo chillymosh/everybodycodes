@@ -43,4 +43,3 @@ p3 = sum(
     for batch in batched(notes, 3)
     for x in [batch.count("x")]
 )
-

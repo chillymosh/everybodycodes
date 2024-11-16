@@ -29,7 +29,6 @@ for word in text.splitlines():
 print(p2)
 
 
-
 # Part 3
 
 data_file = Path(__file__).resolve().parent.parent / "everybody_codes_e2024_q02_p3.txt"
@@ -52,15 +51,16 @@ unique_indices: set[tuple[int, int]] = set()
 
 for word_length, word_list in words_by_length.items():
     for y, x in itertools.product(range(grid_height), range(grid_width)):
-
         if word_length <= grid_width:
-            h_slice = ''.join(grid[y][(x + i) % grid_width] for i in range(word_length))
+            h_slice = "".join(grid[y][(x + i) % grid_width] for i in range(word_length))
             for word in word_list:
                 if h_slice == word:
-                    unique_indices.update((y, (x + i) % grid_width) for i in range(word_length))
+                    unique_indices.update(
+                        (y, (x + i) % grid_width) for i in range(word_length)
+                    )
 
         if y + word_length <= grid_height:
-            v_slice = ''.join(grid[y + i][x] for i in range(word_length))
+            v_slice = "".join(grid[y + i][x] for i in range(word_length))
             for word in word_list:
                 if v_slice == word:
                     unique_indices.update((y + i, x) for i in range(word_length))
@@ -69,19 +69,17 @@ p3 = len(unique_indices)
 print(p3)
 
 
-
 # Alternative way but slower
 for y, x in itertools.product(range(grid_height), range(grid_width)):
     for word in words:
         word_length = len(word)
 
-        if y + word_length <= grid_height and all(grid[y + i][x] == word[i] for i in range(word_length)):
+        if y + word_length <= grid_height and all(
+            grid[y + i][x] == word[i] for i in range(word_length)
+        ):
             unique_indices.update((y + i, x) for i in range(word_length))
 
         if all(grid[y][(x + i) % grid_width] == word[i] for i in range(word_length)):
             unique_indices.update((y, (x + i) % grid_width) for i in range(word_length))
 
 p3 = len(unique_indices)
-
-    
-    
