@@ -4,11 +4,7 @@ from pathlib import Path
 def process_file(file_name: str, part: int = 1) -> tuple[list[int], int]:
     data_file = Path(__file__).resolve().parent.parent / file_name
     nails = [int(i) for i in data_file.read_text().split() if i.isdigit()]
-    if part == 3:
-        return nails, int(find_median(nails))
-    target = min(nails)
-    nails.remove(target)
-    return nails, target
+    return (nails, int(find_median(nails))) if part == 3 else (nails, min(nails))
 
 
 # Part 1
