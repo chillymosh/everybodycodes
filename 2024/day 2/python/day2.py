@@ -14,7 +14,7 @@ print(p1)
 data_file = Path(__file__).resolve().parent.parent / "everybody_codes_e2024_q02_p2.txt"
 data = data_file.read_text().strip()
 header, text = data.split("\n\n")
-words = set(header.replace("WORDS:", "").split(","))
+words = set(header.removeprefix("WORDS:").split(","))
 words.update({w[::-1] for w in words})
 
 p2 = 0
@@ -34,7 +34,7 @@ print(p2)
 data_file = Path(__file__).resolve().parent.parent / "everybody_codes_e2024_q02_p3.txt"
 data = data_file.read_text().strip()
 header, text = data.split("\n\n")
-words = set(header.replace("WORDS:", "").split(","))
+words = set(header.removeprefix("WORDS:").split(","))
 words.update({w[::-1] for w in words})
 grid = [list(row) for row in text.splitlines()]
 
