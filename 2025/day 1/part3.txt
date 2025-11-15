@@ -1,0 +1,3 @@
+Havpyros,Pylaririn,Sillorath,Skarthyn,Axalxal,Quarnsarix,Krythvor,Morncyth,Caelzorin,Nyrixdaros,Quorsor,Maralquin,Aelithulth,Selkxaril,Vanmarn,Lirsarix,Varinhynd,Joratheldrin,Azmarxeth,Urithvel,Tarlnarith,Kynvynar,Aeorparth,Mavxal,Selkzal,Fyrgyth,Zyrcarth,Ardenaris,Rahardith,Fyrcyth
+
+L8,R21,L10,R10,L42,R36,L5,R33,L46,R32,L10,R44,L38,R41,L13,R10,L29,R16,L48,R49,L5,R41,L5,R27,L5,R24,L5,R34,L5,R47,L5,R29,L5,R30,L5,R30,L5,R44,L5,R25,L45,R28,L13,R49,L5,R29,L24,R22,L39,R26,L8,R41,L16,R8,L18,R20,L11,R45,L27

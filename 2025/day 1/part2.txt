@@ -1,0 +1,3 @@
+Kharrex,Thazloris,Agnarlyr,Narrax,Jaloryx,Falphor,Iryndax,Brivzrak,Vyrlgryph,Lirmir,Marparth,Xanural,Valkris,Yndsarix,Tarlsarix,Nyssgaz,Ascalgnar,Felmarulrix,Ulkquin,Fyrloris
+
+L13,R14,L10,R11,L8,R10,L9,R10,L11,R16,L5,R13,L5,R18,L5,R5,L5,R7,L5,R14,L10,R19,L11,R13,L12,R14,L11,R6,L14
