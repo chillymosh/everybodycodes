@@ -8,7 +8,7 @@ def load_data(file_path: str) -> str:
 def min_number_of_sets(a: list[int]) -> int:
     if not a:
         return 0
-    
+
     counts: dict[int, int] = {}
     for num in a:
         counts[num] = counts.get(num, 0) + 1
