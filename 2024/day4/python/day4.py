@@ -20,6 +20,7 @@ print(p2)
 
 # Part 3
 
+
 # You could also just `from statistics import median`
 def find_median(nails: list[int]) -> int:
     nails.sort()
