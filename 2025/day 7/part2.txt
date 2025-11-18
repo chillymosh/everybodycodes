@@ -1,0 +1,24 @@
+Norakthyn,Nexkynar,Fyrnix,Paltharis,Kronrax,Fyrcyth,Nytharis,Seldax,Palthkynar,Kronnix,Kronthyn,Kroncyth,Selralis,Paldkynar,Paldralis,Malralis,Norakrax,Norakdax,Nexrax,Selaris,Norakcoryx,Dordax,Noraknix,Norakkynar,Malfeth,Malcoryx,Nythcyth,Doraris,Malrax,Malaris,Kronfeth,Nyththyn,Malnix,Paldthyn,Palddax,Nexnix,Paldcyth,Nexcyth,Dorcyth,Nexaris,Paldrax,Kronralis,Dornix,Selthyn,Fyrthyn,Fyrcoryx,Dorfeth,Nexcoryx,Selnix,Nythrax,Paldaris,Norakfeth,Paldnix,Nythkynar,Kronaris,Palthdax,Krondax,Nexralis,Fyrrax,Paldfeth,Norakaris,Malthyn,Fyraris,Fyrralis,Fyrdax,Malkynar,Kronkynar,Nythdax,Kroncoryx,Selcoryx,Fyrkynar,Nexdax,Malcyth,Nythfeth,Dorthyn,Palthfeth,Maldax,Palththyn,Palthcoryx,Nexthyn,Palthcyth,Dorkynar,Nythralis,Palthralis,Selkynar,Selfeth,Palthnix,Nythnix,Dorcoryx,Nexfeth,Selcyth,Norakralis,Dorrax,Norakcyth,Paldcoryx,Palthrax,Fyrfeth,Dorralis,Nythcoryx,Selrax
+
+i > s,x
+e > t,v
+d > a,r,c,f,d,k,t,n
+f > e
+N > y,e,o
+y > t,x,n,v
+t > h
+M > a
+k > y,r,c,f,d,k,t,n,a
+c > y,o
+P > a
+S > e
+o > r,v,n
+K > r
+x > r,c,f,d,k,t,n,a
+h > a,y,r,c,f,d,k,t,n
+a > r,v,l,x,k
+l > r,i,c,f,d,k,t,n,a
+F > y
+D > o
+r > i,a,y,r,c,f,d,k,t,n,v
+n > a,i,r,c,f,d,k,t,n

@@ -1,0 +1,16 @@
+Cyndox,Azox,Hargryph,Harendris,Cyndgryph,Harox,Azendris,Cyndendris,Azgryph
+
+H > a
+d > r,e,o,g
+y > p,b
+p > h
+n > d
+e > n
+z > e,b
+A > z
+r > i,e,o,g,y
+a > b
+g > r
+i > s
+o > x
+C > y
